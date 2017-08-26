@@ -6,11 +6,11 @@ public class TimeInterval{
         while(true) {
 
             //prompts user for first time
-            System.out.println("Enter the first time in military time:");
+            System.out.print("Enter the first time in military time:");
             int timeOne = in.nextInt();
 
             //prompts user for second time
-            System.out.println("Enter the second time in military time:");
+            System.out.print("Enter the second time in military time:");
             int timeTwo = in.nextInt();
 
             //check if the values entered are valid
@@ -50,4 +50,3 @@ public class TimeInterval{
         }
     }
 }
-
