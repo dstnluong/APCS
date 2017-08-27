@@ -20,13 +20,14 @@ public class IntersectingCircles {
                 System.out.println("radius of circle 2: ");
             double radius2 = in.nextDouble();
             double radiiDist = sqrt(Math.pow((x1 - x2), 2.0) + Math.pow((y1 - y2), 2.0));
-        
-            //edge case
-            if (x1 == x2 && y1 == y2 && radius1 == radius2) {
-                System.out.println("The circles intersect at infinitely many points.");
 
+            //edge cases
+            if (x1 == x2 && y1 == y2 && radius1 == radius2 && radius1 == 0.0) {
+                System.out.println("The circles intersect at one point.");
+            } else if (x1 == x2 && y1 == y2 && radius1 == radius2 && radius1 != 0.0) {
+                System.out.println("The circles intersect at infinitely many points.");
             //triangle inequality theorem
-        } else if (radius1 < radius2 + radiiDist && radius2 < radius1 + radiiDist && radiiDist < radius1 + radius2) {
+            } else if (radius1 < radius2 + radiiDist && radius2 < radius1 + radiiDist && radiiDist < radius1 + radius2) {
                 System.out.println("The circles intersect at two points.");
             } else if (radius1 == radius2 + radiiDist || radius2 == radius1 + radiiDist || radiiDist == radius1 + radius2) {
                 System.out.println("The circles intersect at one point.");
