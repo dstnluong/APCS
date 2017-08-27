@@ -6,7 +6,7 @@ public class IntersectingCircles {
     public static void main(String [] args) {
         Scanner in = new Scanner(System.in);
         while(true) {
-            //get variables
+            //prompt variables
                 System.out.println("x-coordinate of the vertex of circle 1: ");
             double x1 = in.nextDouble();
                 System.out.println("y-coordinate of the vertex of circle 1: ");
