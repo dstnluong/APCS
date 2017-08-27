@@ -35,7 +35,7 @@ public class IntersectingCircles {
                 System.out.println("The circles do not intersect.");
             }
             System.out.println("Enter '1' to rerun, or any other key and then enter to end.");
-            if (in.hasNextInt() && in.nextInt() == 1) {
+            if (in.hasNextInt() && in.nextInt() != 1) {
                 continue;
             } else {
                 break;
