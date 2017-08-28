@@ -7,15 +7,15 @@ public class IntersectingCircles {
         Scanner in = new Scanner(System.in);
         while(true) {
             //prompt variables
-                System.out.println("x-coordinate of the vertex of circle 1: ");
+                System.out.println("x-coordinate of the center of circle 1: ");
             double x1 = in.nextDouble();
-                System.out.println("y-coordinate of the vertex of circle 1: ");
+                System.out.println("y-coordinate of the center of circle 1: ");
             double y1 = in.nextDouble();
                 System.out.println("Radius of circle 1: ");
             double radius1 = in.nextDouble();
-                System.out.println("x-coordinate of the vertex of circle 2: ");
+                System.out.println("x-coordinate of the center of circle 2: ");
             double x2 = in.nextDouble();
-                System.out.println("y-coordinate of the vertex of circle 2: ");
+                System.out.println("y-coordinate of the center of circle 2: ");
             double y2 = in.nextDouble();
                 System.out.println("radius of circle 2: ");
             double radius2 = in.nextDouble();
