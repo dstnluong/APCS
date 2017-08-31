@@ -1,7 +1,7 @@
 //Dustin Luong 08/23/17
 import java.util.Scanner;
-public class TimeInterval{
-    public static void main(String [] args){
+public class TimeInterval {
+    public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
         while(true) {
 
