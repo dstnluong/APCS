@@ -1,3 +1,4 @@
+//Dustin Luong 08/31/17
 import java.util.Scanner;
 public class Lines {
     public static void main(String [] args){
@@ -80,11 +81,9 @@ public class Lines {
                     System.out.println("Enter two distinct points.");
                     break;
                 } else {
-                    m1 = (y1 - y2) / (x1 - x2);
-                    yInt1 = y1 - m1 * x1;
+                    m2 = (y1 - y2) / (x1 - x2);
+                    yInt2 = y1 - m2 * x1;
                 }
-                m2 = (y1 - y2) / (x1 - x2);
-                yInt2 = y1 - m2 * x1;
             } else if (line2 == 3) {
                 System.out.print("slope=");
                 m2 = in.nextDouble();
