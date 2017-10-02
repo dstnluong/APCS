@@ -10,7 +10,7 @@ public class Factor {
             double sqrt = sqrt(value);
             for(int i = 2; i <= sqrt; i++) {
                 if(value % i == 0){
-                    System.out.println(i);
+                    System.out.print(i + " ");
                     value /= i;
                     i--;
                 }
