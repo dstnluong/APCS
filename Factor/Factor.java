@@ -15,7 +15,7 @@ public class Factor {
                     i--;
                 }
             }
-            if(value != 1) System.out.println(value);
+            //if(value != 1) System.out.println(value);
             System.out.println("Enter '1' to rerun, or any other key and then enter to end.");
             if (in.hasNextInt() && in.nextInt() == 1) {
                 continue;
