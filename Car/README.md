@@ -1,0 +1,3 @@
+# Car
+
+Implement a class Car with the following properties. A car has a certain efficiency (measured in miles/gallon) and a certain amount of fuel in the gas tank. The efficiency is specified in the constructor, and the initial fuel level is 0. Supply a method drive that simulates driving the car for a certain distance, reducing the amount of gasoline in the fuel tank (the car might stop before reaching its intended distance if it runs out of gas.) Also supply methods getGasInTank, returning the current amount of gasoline in the fuel tank, addGas, to add gasoline to the fuel tank, and getRemainingDistance(), returning the total distance the car can drive with current gas level in tank.
