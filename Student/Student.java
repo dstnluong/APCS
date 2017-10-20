@@ -1,28 +1,23 @@
 public class Student {
     private String name;
-    private double percentage;
-    private int taken;
-    private int possible;
+    private double earned;
+    private double possible;
     public Student(String studentName){ 
         name = studentName;
-        taken = 0;
+        earned = 0;
         possible = 0;
     }
     public void addQuiz(int pointsEarned, int pointsPossible){
-        double earned = pointsEarned;
-        double possible = pointsPossible;
-        percentage += (earned / possible);
+        earned += pointsEarned;
         possible += pointsPossible;
-        taken ++;
     }
     public String getName() {
         return name;
     }
-    public int getTotalScore() {
+    public double getTotalScore() {
         return possible;
     }
     public String getAverageScore(){
-        double averagePercentage = 100 * percentage / taken;
-        return averagePercentage + "%";
+        return earned * 100 / possible + "%";
     }
 }
