@@ -1,7 +1,7 @@
 //Dustin Luong 10/02/17
 import static java.lang.Math.sqrt;
 import java.util.Scanner;
-public class Factoring {
+public class Factor {
     public static void main(String[] args) {
         while(true) {
             Scanner in = new Scanner(System.in);
